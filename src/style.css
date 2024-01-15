@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+div .main {
+  background-color: gray;
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+}
+
+div .frame {
+  background-color: lightgray;
+  padding: 5px;
+}
+
+div .chart {
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+div .chart-placeholder {
+  background-color: white;
+  padding: 25px;
+  max-width: fit-content;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.animated-button {
+  transition: all 0.2s ease-in-out;
+}
+
+.animated-button.hovered {
+  transform: scale(1.1);
+}
